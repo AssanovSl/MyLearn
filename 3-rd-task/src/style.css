@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+main {
+    max-height: 400px;
+    overflow: auto;
+    background: rgba(160, 160, 160, 0.611);
+    border: 1px solid black;
+    border-radius: 20px 0 0 20px;   
+}
+article {
+    display: inline-block;
+    background: rgba(249, 183, 90, 0.613);
+    box-shadow: inset 0 0 23px black ;
+    width: 200px;
+    padding: 17px;
+    margin-top: 8px;
+    margin-left: 3px;
+    margin-bottom: 16px;
+    margin-right: 12px;
+    border-radius: 20px;
+}
